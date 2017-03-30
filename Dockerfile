@@ -2,7 +2,7 @@ FROM alpine:3.4
 
 MAINTAINER Global-Solutions co. ltd.
 
-ENV NGINX_VERSION=1.11.12 \
+ENV NGINX_VERSION=1.11.10 \
     DEVEL_KIT_MODULE_VERSION=0.3.0 \
     LUA_MODULE_VERSION=0.10.7 \
     LUAJIT_LIB=/usr/lib \
