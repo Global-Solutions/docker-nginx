@@ -4,9 +4,9 @@ LABEL maintainer="Global-Solutions co. ltd."
 
 ENV NGINX_VERSION=1.14.0 \
     DEVEL_KIT_MODULE_VERSION=0.3.0 \
-    LUA_MODULE_VERSION=0.10.7 \
+    LUA_MODULE_VERSION=0.10.13 \
     LUAJIT_LIB=/usr/lib \
-    LUAJIT_INC=/usr/include/luajit-2.0
+    LUAJIT_INC=/usr/include/luajit-2.1
 
 RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 	&& SRCDIR="/usr/src" \
