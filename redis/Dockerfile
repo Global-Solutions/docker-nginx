@@ -1,6 +1,6 @@
-FROM gsol/nginx:1.11.10-alpine-lua
+FROM gsol/nginx:1.14.0-alpine-lua
 
-MAINTAINER Global-Solutions co. ltd.
+LABEL maintainer="Global-Solutions co. ltd."
 
 ENV LUA_REDIS_VERSION=0.26 \
     LUA_RESTY_REDIS_DIR=/opt/nginx/lua-resty-redis
